@@ -1,0 +1,35 @@
+.orange-bg {
+    background-color: #FEEAE9;
+}
+
+.pink-color {
+    color: #FF438D;
+}
+
+.pink-button {
+    background-color: #FF438D;
+    color: #fff;
+}
+
+.category div img{
+    width: 100px;
+}
+
+.cat {
+    padding: 10px 30px;
+    margin: 0 5px;
+    border-radius: 10px;
+    color: white;
+}
+
+.cat1 {
+    background-color: orange;
+}
+
+.cat2 {
+    background-color: orchid;
+}
+
+.cat3 {
+    background-color: blue;
+}
