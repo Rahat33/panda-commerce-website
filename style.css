@@ -16,8 +16,6 @@
 }
 
 .cat {
-    padding: 10px 30px;
-    margin: 0 5px;
     border-radius: 10px;
     color: white;
 }
@@ -32,4 +30,7 @@
 
 .cat3 {
     background-color: blue;
+}
+.card-footer-text {
+    color: rgb(2, 214, 144);
 }
