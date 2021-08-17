@@ -42,3 +42,15 @@ for (const buyButton of test) {
         event.target.parentNode.removeChild(event.target);
     })
 }
+
+// (task 7) --> disabling and abling send button for specific word
+
+document.getElementById('emailKey').addEventListener('keyup', function (event) {
+    if (event.target.value == "email") {
+        document.getElementById('button-addon2').removeAttribute('disabled');
+    }
+
+    else {
+        document.getElementById('button-addon2').setAttribute('disabled', true);
+    }
+})
